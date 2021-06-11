@@ -1,2 +1,2 @@
 #!/bin/bash
-mkir -m 777 dir_holberton
+mkir -m 751 dir_holberton

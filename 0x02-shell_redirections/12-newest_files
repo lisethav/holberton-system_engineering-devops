@@ -1,2 +1,2 @@
 #!/bin/bash 
-find . ctime | head
+ls -art | head

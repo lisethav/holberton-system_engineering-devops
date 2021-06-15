@@ -1,2 +1,2 @@
 #!/bin/bash 
-find . -ctime 1 | head -n
+find . -newer | head -n

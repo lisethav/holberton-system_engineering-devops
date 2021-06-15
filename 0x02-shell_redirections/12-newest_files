@@ -1,2 +1,2 @@
 #!/bin/bash 
-ls -art | head
+ls -lt | head

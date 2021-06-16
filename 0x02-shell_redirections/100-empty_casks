@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l . -path "*/*" -empty| rev | cut -d'/' -f1 | rev
+ls -l . -path "*/*"| rev | cut -d'/' -f1 | rev

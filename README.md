@@ -1,3 +1,3 @@
-This is my second repository whit scripts and its very hard
+Low-level programming & Algorithm
 
-in this repository only have scripts for thinks
+Its about programing in C - create functions and more

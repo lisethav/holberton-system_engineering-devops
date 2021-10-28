@@ -3,6 +3,6 @@
 CONTADOR=10
 until [ $CONTADOR -lt 1 ];
 do
-    CONTADOR-=1
+    let CONTADOR-=1
     echo "Best School"
 done

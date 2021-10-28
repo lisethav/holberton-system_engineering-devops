@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+CONTADOR=10
+until [ $CONTADOR -lt 1 ];
+do
+    let CONTADOR-=1
+    echo "Best School"
+done

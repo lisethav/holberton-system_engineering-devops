@@ -4,7 +4,7 @@ CONTADOR=1
 while [ $CONTADOR -le 10 ]
 do
     echo "Best School"
-    if [ $CONTADOR -eq 9]
+    if [ $CONTADOR -eq 9 ]
     then
         echo "Hi"
     fi

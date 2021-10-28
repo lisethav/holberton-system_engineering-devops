@@ -8,5 +8,5 @@ do
     then
         echo "Hi"
     fi
-    let CONTADOR=$((CONTADOR+1))
+    CONTADOR=$((CONTADOR+1))
 done

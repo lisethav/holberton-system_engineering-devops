@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Bash script that displays Best School 10 times, 9th iteration, display Hi
+CONTADOR=1
+while [ $CONTADOR -le 10 ]
+do
+    if [ $CONTADOR -eq 4 ]
+    then
+        echo "bad luck"
+    elif [ $CONTADOR -eq 8 ]
+    then
+        echo "good luck"
+    else
+    echo "Best School"
+    fi
+    CONTADOR=$((CONTADOR+1))
+done

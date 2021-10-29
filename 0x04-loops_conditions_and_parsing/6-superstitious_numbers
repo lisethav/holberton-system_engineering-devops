@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Bash script that displays Best School 10 and bad luck y good luck
+# Bash script that displays numbers and bad luck
 CONTADOR=1
 while [ $CONTADOR -le 20 ]
 do

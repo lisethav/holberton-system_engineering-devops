@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Bash script that displays numbers from 1 to 100.
+CONTADOR=1
+while [ $CONTADOR -le 100 ]
+do
+    if [ $((CONTADOR % 15)) -eq 0 ]
+    then
+        echo "FizzBuzz"
+    elif [ $((CONTADOR % 5)) -eq 0 ]
+    then
+        echo "Buzz"
+    elif [ $((CONTADOR % 3)) -eq 0 ]
+    then
+    echo "Fizz"
+    else
+    echo "$CONTADOR"
+    fi
+    CONTADOR=$((CONTADOR+1))
+done

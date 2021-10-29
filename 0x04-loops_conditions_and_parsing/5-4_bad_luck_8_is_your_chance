@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Bash script that displays Best School 10 times, 9th iteration, display Hi
+# Bash script that displays Best School 10 and bad luck y good luck
 CONTADOR=1
 while [ $CONTADOR -le 10 ]
 do

@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# Bash script that displays Best School 10 and bad luck y good luck
+CONTADOR=1
+while [ $CONTADOR -le 20 ]
+do
+    echo $CONTADOR
+    case $CONTADOR in
+    4)
+    echo "bad luck from China"
+    ;;
+    9)
+    echo "bad luck from Japan"
+    ;;
+    17)
+    echo "bad luck from Italy"
+    esac 
+    CONTADOR=$((CONTADOR+1))
+done

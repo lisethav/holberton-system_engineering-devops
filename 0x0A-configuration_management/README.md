@@ -1,0 +1,1 @@
+0x0A. Gestión de la configuración
